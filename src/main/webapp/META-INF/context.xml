@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <Resource name="jdbc/student" auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost/studentDataMiniProject"
+              username="root" password="Shamodha@27" maxTotal="210" maxIdle="8"
+              maxWaitMillis="-1"
+    />
+</Context>
